@@ -44,6 +44,10 @@ h3 {
   font-style: normal;
 }
 
+.content-wrap {
+    width: 950px; 
+    margin: 0 auto;
+}
 
 
 /* Header & Footer 

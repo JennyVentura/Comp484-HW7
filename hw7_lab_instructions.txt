@@ -6,6 +6,7 @@ In this hw, you’ll continue working on your resume site. You can continue buli
 			a.	Let's update our projects by adding in the content wrappers. To keep the text from spanning across the whole page, starting with the header. Add the first new <div class="content-wrap"> just after the header tag. We want to make sure we enclose all of the content, but stay within the sections. It should contain all elements that the header contains.   
 
             b. Go back to the CSS now and add in this style in the global section. We're going to keep this style here in the global section, because it's going to be reused throughout the project. Give it a width: 950px; margin: 0 auto; 
+--FINISHED!!
 
 2. Go back to your HTML and add that content wrapper to the rest of the page.
             a. Add one in the work section right after the section tag. Make sure that the closing tag encloses around the content. So it should be right before the closing section tag. 
@@ -15,6 +16,7 @@ In this hw, you’ll continue working on your resume site. You can continue buli
             c. save work and examine your results in chrome with different window sizings.
  
             d. To make the content wrapper flexible, but while still setting the width on the content, instead of using a width, we can use max-width instead. Let's go back to our CSS file and make that update. In the content-wrap selector update remove the width property with max-width: 950px;
+--HERE!!
 
 3. Practice with padding and spacing.
             a. Still in the .content-wrap selector add some padding. I'm going to go with one value 50 pixels, (padding: 50px;). By adding padding to the content wrap, all the page sections using this class will have the same amount of padding. And this will help to keep your designs more consistent.
