@@ -41,17 +41,18 @@ In this hw, you’ll continue working on your resume site. You can continue buli
 
             c. Add one more CSS style to .profile-image selector called border-radius give it a value of 50%. (border-radius:50%;) Save it and go back to the browser.
 
-            d. The next thing we're going to do is tighten up the header design by removing some margins. I want the h1 name  and the h2 tagline to be closer together so remove the margin from both of these h1s and h2 headings. Back in your CSS go to your header h1, header h2 selector and add (margin: 0;) there. Go ahead and go back to the browser and check for your changes.
+            d. The next thing we're going to do is tighten up the header design by removing some margins. I want the h1 name  and the h2 tagline to be closer together so remove the margin from both of these h1s and h2 headings. Back in your CSS go to your header h1, header h2 selector and add (margin: 0;) there. Go ahead and go back to the browser and check for your changes. -- I have them in two seperate selectors because of font styles
 
             e. Float the text around the image, add a float: left to the profile-img selector.
 
             f. Add the overflow property to the content-wrap selector. Use the value of hidden.
 
             g. Add a little bit of margin on the right side of your image, just to put some space between it and the text. Back in the profile-img selector, add (margin-right: 30 px). Save and go back to the browser and check for your changes. 
---HERE!!
+--FINISHED!!
 
 5. Add the box model fix
             a. Let's add the box model fix. Use the snippet from the lecture and add it to your CSS file. This is going to go at the very top of your style sheet. Add it to the global section since this style is applied to every single element on the page.
+--HERE!!
 
 6. Add some columns to your page
             a. The first step is to put a box around all of the text elements to group them as one component. Let's go back to the HTML file. We'll use a div tag to create the container because this is only for styling purposes. And we'll add a class as well. We're going to be creating two columns, so we can call it column-narrow and column-wide. You'll be using these column styles again to align the content in the work experience section. So this is going to be a reusable style.
