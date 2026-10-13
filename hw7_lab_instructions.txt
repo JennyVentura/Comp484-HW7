@@ -52,7 +52,7 @@ In this hw, you’ll continue working on your resume site. You can continue buli
 
 5. Add the box model fix
             a. Let's add the box model fix. Use the snippet from the lecture and add it to your CSS file. This is going to go at the very top of your style sheet. Add it to the global section since this style is applied to every single element on the page.
---HERE!!
+--FINISHED!!
 
 6. Add some columns to your page
             a. The first step is to put a box around all of the text elements to group them as one component. Let's go back to the HTML file. We'll use a div tag to create the container because this is only for styling purposes. And we'll add a class as well. We're going to be creating two columns, so we can call it column-narrow and column-wide. You'll be using these column styles again to align the content in the work experience section. So this is going to be a reusable style.
@@ -68,8 +68,8 @@ In this hw, you’ll continue working on your resume site. You can continue buli
             f. remove or comment out the width, float, and margin values from the profile-img selector. Since we'll be using these new global column styles instead to align the content. You can keep the border-radius: 50%; property. 
             
             g. Back in your html file add divs and classes to your Work Experince section to apply our new styling.
-                i. add a new <div class="column-narrow"> that contatins the h3 Job tile, p Company Name, and p Date at job tags in your Job Details section. 
+                i. add a new <div class="column-narrow"> that contatins the h3 Job title, p Company Name, and p Date at job tags in your Job Details section. 
                 ii. add a new <div class="column-wide"> that contatins the p Job summary, p Optional list, and the ul tags in you Job Details section. 
                 iii. make sure to add that to all your job items.. 
-
+--FINISHED!!
 
