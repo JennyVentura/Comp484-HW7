@@ -16,7 +16,7 @@ In this hw, you’ll continue working on your resume site. You can continue buli
             c. save work and examine your results in chrome with different window sizings.
  
             d. To make the content wrapper flexible, but while still setting the width on the content, instead of using a width, we can use max-width instead. Let's go back to our CSS file and make that update. In the content-wrap selector update remove the width property with max-width: 950px;
---HERE!!
+--FINISHED!!
 
 3. Practice with padding and spacing.
             a. Still in the .content-wrap selector add some padding. I'm going to go with one value 50 pixels, (padding: 50px;). By adding padding to the content wrap, all the page sections using this class will have the same amount of padding. And this will help to keep your designs more consistent.
@@ -32,6 +32,7 @@ In this hw, you’ll continue working on your resume site. You can continue buli
             f. Back in our HTML file, to make sure that we add the styles only to the links within the footer, we're going to add a class to this div that's containing all the links. After the h2 tag that says "Let's Keep in Touch!" Add a <div class="contact-info">. This div should contain all the anchor tags.
             
             g. Back in the CSS file, Create a new declaration block, and name it (.contact-info a{} ) I'm also going to apply these styles to the links, so I'm using a descendant selector, a to target the links inside of the contact-info class. Inside that selector set  the values of (padding: 10px; display: inline-block;) I'm going to choose the value of inline-block, because I still want these elements to align side by side, in a line, but I also wanted to apply the padding properly, like block level elements.
+--HERE!!
 
 4. Practicing with floats in the header
             a. So the first thing we're going to focus on is the profile image. Something to note, images can be resized with CSS, but it's best to crop the file to the size that you need it to be. The larger the image, the more bandwidth the browser will use to load it. In the CSS, let's set the width and height of our profile image to 300 pixels.
