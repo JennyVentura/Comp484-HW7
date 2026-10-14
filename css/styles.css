@@ -95,7 +95,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius:50%; /* makes the circle around the picture / the picture into a circle shape */
+    border-radius: 50%; /* makes the circle around the picture / the picture into a circle shape */
     /* width: 300px; -- height will be the same
     float: left;
     margin-right: 30px; Commenting out after adding column-wide*/
